@@ -171,11 +171,11 @@ We kept it short and sweet for our purposes, but there is so much more you can d
 
 
 
-<h1>Alternative</h1>
-## Setup
-* Clone or download the repository
-* Install dependencies `mvn install`
-* Set your username and authkey in the file TodoSteps.java
+
+## Alternate Setup
+- Clone or download the repository
+- Install dependencies `mvn install`
+- Set your username and authkey in the file TodoSteps.java
 
 ## Run tests
 - `mvn verify -P single`
