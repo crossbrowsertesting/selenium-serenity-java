@@ -167,3 +167,15 @@ You’ll need to use your Username and Authkey to run your tests on CrossBrowser
 As you can probably make out from our test, we visit a small ToDo App example, interact with our page, and use assertions to verify that the changes we've made are actually reflected in our app.
 
 We kept it short and sweet for our purposes, but there is so much more you can do with Cucumber! Being built on top of Selenium means the sky is the limit as far as what you can do. If you have any questions or concerns, feel <a href="mailto:info@crossbrowsertesting.com">free to get in touch</a>.
+
+
+
+
+<h1>Alternative</h1>
+## Setup
+* Clone or download the repository
+* Install dependencies `mvn install`
+* Set your username and authkey in the file TodoSteps.java
+
+## Run tests
+- `mvn verify -P single`
